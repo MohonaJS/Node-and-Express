@@ -1,4 +1,8 @@
-const studentIn = require("./student");
+// const studentIn = require("./student");
 
-console.log(studentIn.name());
-console.log(studentIn.age());
+const {getName} = require("./student")
+
+console.log(getName());
+// console.log(studentIn.age());
+
+
